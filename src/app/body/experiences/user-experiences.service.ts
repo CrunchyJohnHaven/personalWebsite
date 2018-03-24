@@ -3,32 +3,32 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserExperiencesService {
   private experiencesInfo = {
-    myExperiences: "[Your experience here]",
+    myExperiences: "I have been a fullstack developer for the last year, before which I was a Captain in the Army Engineer Officer Corp",
     educations: [
       {
-        schoolName: "[Your University's name here]",
-        startDate: "[Srart Month Year]",
-        endDate: "[End Month Year]",
-        degreeTitle: "[Degree Title here]",
-        certificationDescription: "[Certification Description here.]",
-        location: "[Location here]"
+        schoolName: "American University",
+        startDate: "September 2009",
+        endDate: "March 2013",
+        degreeTitle: "Bachelors in Literature",
+        certificationDescription: "Bachelors in Literature",
+        location: "Washington DC"
       },
       {
-        schoolName: "[Your High School's name here]",
-        startDate: "[Srart Month Year]",
-        endDate: "[End Month Year]",
-        degreeTitle: "[Certification Description here.]",
+        schoolName: "Greely High School",
+        startDate: "September 2015",
+        endDate: "June 2009",
+        degreeTitle: "High School Diploma",
         certificationDescription: "[Certification Description here.]",
         location: "[Location here]"
       }
     ],
     careers: [
       {
-        companyName: "[Company's name here]",
-        startDate: "[Srart Month Year]",
-        endDate: "[End Month Year]	",
-        jobType: "[Job type]",
-        jobTitle: "[Your job's title here]",
+        companyName: "US Army",
+        startDate: "June 2013",
+        endDate: "June 2017",
+        jobType: "Military",
+        jobTitle: "Army Captain",
         jobDuty: "[Your job's duty here]",
         location: "[Location]",
         companyLink: "[Company's website]"
@@ -71,7 +71,7 @@ export class UserExperiencesService {
       }
     ]
   };
-
+// ****images
   getExperiencesInfo() {
     return this.experiencesInfo;
   }
