@@ -18,7 +18,7 @@ export class PageService {
     showContact: true,
     contactBackgroundColor: "rgb(66, 73, 73)",
     resumeTitle: "Hi, i'm",
-    projectLink: "https://github.com/Wrinth/personal_profile_angular4",
+    projectLink: "https://github.com/CrunchJohnHaven/",
     questionTitle: "Can I build something for you?",
   };
 
